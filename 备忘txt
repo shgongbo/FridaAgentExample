@@ -1,0 +1,2 @@
+frida -U -l 1.js -n First
+frida -U -l 1.js -p 3444
