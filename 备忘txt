@@ -1,2 +1,15 @@
 frida -U -l 1.js -n First
 frida -U -l 1.js -p 3444
+xposed installer报错：
+xposed could not load available zip files:就不要使用官方下载的apk。使用youtube网址：https://www.youtube.com/watch?v=Hf6ubmRCCdc。或者
+https://khanhnguyen9872.github.io/xposed/xposed.apk
+
+The Xposed API classes are compiled into the module's APK:
+把build.gradle.kts中的
+implementation("de.robv.android.xposed:api:82:sources")
+implementation("de.robv.android.xposed:api:82")
+改为
+compileOnly("de.robv.android.xposed:api:82:sources")
+compileOnly("de.robv.android.xposed:api:82")
+
+报错：文件不存在/无法读取，相关错误。就是重启模拟器。在安装xposed，安装模块，安装app等阶段，都要重启

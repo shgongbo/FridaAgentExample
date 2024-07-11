@@ -1,0 +1,30 @@
+07-11 10:49:58.785 I/Xposed  ( 1883): -----------------
+07-11 10:49:58.785 I/Xposed  ( 1883): Starting Xposed version 89, compiled for SDK 25
+07-11 10:49:58.785 I/Xposed  ( 1883): Device: SM-G955N (samsung), Android version 7.1.2 (SDK 25)
+07-11 10:49:58.785 I/Xposed  ( 1883): ROM: SM-G955N-user 7.1.2 NRD90M.G955NKSU1AQDC 700240409 release-keys
+07-11 10:49:58.785 I/Xposed  ( 1883): Build fingerprint: samsung/dream2qltezh/dream2qltechn:7.1/N2G48H/G9550ZHU1AQEE:user/release-keys
+07-11 10:49:58.785 I/Xposed  ( 1883): Platform: x86, 32-bit binary, system server: yes
+07-11 10:49:58.785 I/Xposed  ( 1883): SELinux enabled: no, enforcing: no
+07-11 10:50:01.211 I/Xposed  ( 1883): -----------------
+07-11 10:50:01.212 I/Xposed  ( 1883): Added Xposed (/system/framework/XposedBridge.jar) to CLASSPATH
+07-11 10:50:01.321 I/Xposed  ( 1883): Detected ART runtime
+07-11 10:50:01.323 I/Xposed  ( 1883): Found Xposed class 'de/robv/android/xposed/XposedBridge', now initializing
+07-11 10:50:01.385 E/Xposed  ( 1883): Cannot load any modules because /data/user_de/0/de.robv.android.xposed.installer/conf/modules.list was not found
+
+
+07-11 10:52:45.934 I/Xposed  ( 1883): -----------------
+07-11 10:52:45.934 I/Xposed  ( 1883): Starting Xposed version 89, compiled for SDK 25
+07-11 10:52:45.934 I/Xposed  ( 1883): Device: SM-G955N (samsung), Android version 7.1.2 (SDK 25)
+07-11 10:52:45.934 I/Xposed  ( 1883): ROM: SM-G955N-user 7.1.2 NRD90M.G955NKSU1AQDC 700240409 release-keys
+07-11 10:52:45.934 I/Xposed  ( 1883): Build fingerprint: samsung/dream2qltezh/dream2qltechn:7.1/N2G48H/G9550ZHU1AQEE:user/release-keys
+07-11 10:52:45.934 I/Xposed  ( 1883): Platform: x86, 32-bit binary, system server: yes
+07-11 10:52:45.934 I/Xposed  ( 1883): SELinux enabled: no, enforcing: no
+07-11 10:52:48.311 I/Xposed  ( 1883): -----------------
+07-11 10:52:48.311 I/Xposed  ( 1883): Added Xposed (/system/framework/XposedBridge.jar) to CLASSPATH
+07-11 10:52:48.422 I/Xposed  ( 1883): Detected ART runtime
+07-11 10:52:48.423 I/Xposed  ( 1883): Found Xposed class 'de/robv/android/xposed/XposedBridge', now initializing
+07-11 10:52:48.482 I/Xposed  ( 1883): Loading modules from /data/app/com.example.forthhook-1/base.apk
+07-11 10:52:48.640 E/Xposed  ( 1883):   Cannot load module:
+07-11 10:52:48.640 E/Xposed  ( 1883):   The Xposed API classes are compiled into the module's APK.
+07-11 10:52:48.640 E/Xposed  ( 1883):   This may cause strange issues and must be fixed by the module developer.
+07-11 10:52:48.640 E/Xposed  ( 1883):   For details, see: http://api.xposed.info/using.html
